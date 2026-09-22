@@ -47,6 +47,32 @@ measured on forecast accuracy hit 92.0%, the seven who weren't averaged 70.2%.
 
 `Excel` (pivots, regression) · `Python`/`openpyxl` — 15-slide deck + 15-sheet model
 
+### [operational-risk-frameworks](https://github.com/gagank87/operational-risk-frameworks)
+**Two operational-risk frameworks where every control has a test that can fail.**
+One for a credit-data platform under a T+3 regulatory SLA, one for a Salesforce
+CRM ticketing operation with incident handling outsourced to a vendor. Risks are
+placed on the operating flow before they're scored, controls are classified by
+*when* they act rather than just described, and a traceability map ties all 15
+risks to the tests that verify them. Detectability is scored as a third axis
+beside likelihood and impact — two risks with the same score aren't equally
+dangerous if one of them hides until the deadline has passed.
+
+`Power BI` (4 dashboard pages) · `Figma` · `Excel` — 25pp of framework, 24 controls and tests
+
+### [jiosaavn-review-sentiment](https://github.com/gagank87/jiosaavn-review-sentiment)
+**A 100M-user music app has more unhappy reviewers than happy ones. Sentiment says
+that much; clustering says what to fix.**
+400 Indian app-store reviews scored with a multilingual model — because these
+reviews are routinely Hinglish and an English-only classifier reads them as
+neutral noise — then the 187 negative ones embedded and clustered. Monetisation
+and reliability turn out to be 81% of the complaints; content gaps, the expensive
+thing to fix, are the smallest cluster. The README argues *against* its own
+headline number: the two stores were sampled with different sort orders, so the
+46.8% negative rate is biased upward and the cluster proportions are the
+defensible output.
+
+`transformers` (XLM-R) · `sentence-transformers` · `KMeans` · `Figma` — 12-slide deck + 3 notebooks
+
 ---
 
 ## Background
