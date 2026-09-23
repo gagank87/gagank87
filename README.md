@@ -93,6 +93,5 @@ Anthropic & OpenAI APIs · Selenium · survey design and statistical testing
 - **Report what the data supports, and say where it stops.** Every project here
   has a stated-limitations section, because a finding without its caveats is
   harder to act on, not easier.
-  
 - **Prefer the honest failure.** A pipeline that reports why a source was
   unavailable beats one that returns an empty result and looks fine.
