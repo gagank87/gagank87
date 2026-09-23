@@ -7,7 +7,7 @@ I care as much about whether a number is *trustworthy* as about what it says.
 Several of the projects below spend as much effort on what the data cannot
 support as on what it can.
 
-📍 Mumbai, India
+📍 Currently in Mumbai but my heart lives in Pune
 
 ---
 
@@ -77,13 +77,13 @@ defensible output.
 
 ## Background
 
-- **PGDM (MBA)** — Welingkar Institute of Management, Mumbai · 2024–2026
-- **BCA, Information Technology** — VIPS, GGSIPU Delhi · 9.08/10
+- **PGDM (MBA)** — Welingkar Institute of Management, Mumbai · 2024–2026 · 8.19/10
+- **BCA, Information Technology** — VIPS, GGSIPU Delhi · 2019-2022 · 9.08/10
 - **Research** — systematic review on the shift from search engines to
   conversational AI search, presented at NASMEI, December 2025 (paper in revision)
 - **Certifications** — CS50 (Harvard) · Wipro AI · Bloomberg Finance & ESG · Cisco Cybersecurity
 
-**Tools:** Python · SQL · Power BI · Excel · Pandas · scikit-learn · LangChain ·
+**Tools:** Python · SQL · Power BI · Excel · Pandas · MS Office · LangChain ·
 Anthropic & OpenAI APIs · Selenium · survey design and statistical testing
 
 ---
@@ -93,8 +93,6 @@ Anthropic & OpenAI APIs · Selenium · survey design and statistical testing
 - **Report what the data supports, and say where it stops.** Every project here
   has a stated-limitations section, because a finding without its caveats is
   harder to act on, not easier.
-- **Build the guardrail alongside the feature.** The anti-fabrication check in
-  `job-finder-ai` and the sanitisation tooling behind
-  `mea-passport-grievance-analysis` exist for the same reason.
+  
 - **Prefer the honest failure.** A pipeline that reports why a source was
   unavailable beats one that returns an empty result and looks fine.
