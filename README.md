@@ -21,9 +21,11 @@ mechanical verification step re-checks every generated claim against the source
 CV and rejects fabrications, so the tailoring can rephrase but never invent.
 Four front-ends (CLI, Tkinter GUI, browser, headless) over one pipeline, with a
 multi-provider LLM fallback chain and sources that degrade honestly — a blocked
-scraper reports *why* it skipped instead of silently returning nothing.
+scraper reports *why* it skipped instead of silently returning nothing. The web
+front-end is multi-user: accounts, per-user data isolation, and bring-your-own
+API keys that never fall back to a shared server credential.
 
-`Python` · `Anthropic/Bedrock` · `FastAPI` · `Selenium` · `BeautifulSoup` · `openpyxl` — 36 modules, ~8,700 LOC
+`Python` · `Anthropic/Bedrock` · `FastAPI` · `SQLite` · `Selenium` · `BeautifulSoup` · `openpyxl` — 38 modules, ~9,200 LOC
 
 ### [mea-passport-grievance-analysis](https://github.com/gagank87/mea-passport-grievance-analysis)
 **Why India's passport office answers the wrong complaints.**
