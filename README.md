@@ -19,11 +19,11 @@ Aggregates postings from 7 sources, scores each against a real CV, and drafts
 tailored applications with Claude. The interesting part is the guardrail: a
 mechanical verification step re-checks every generated claim against the source
 CV and rejects fabrications, so the tailoring can rephrase but never invent.
-Three front-ends (CLI, Tkinter GUI, headless) over one pipeline, with a
+Four front-ends (CLI, Tkinter GUI, browser, headless) over one pipeline, with a
 multi-provider LLM fallback chain and sources that degrade honestly — a blocked
 scraper reports *why* it skipped instead of silently returning nothing.
 
-`Python` · `Anthropic/Bedrock` · `Selenium` · `BeautifulSoup` · `openpyxl` — 34 modules, ~8,000 LOC
+`Python` · `Anthropic/Bedrock` · `FastAPI` · `Selenium` · `BeautifulSoup` · `openpyxl` — 36 modules, ~8,700 LOC
 
 ### [mea-passport-grievance-analysis](https://github.com/gagank87/mea-passport-grievance-analysis)
 **Why India's passport office answers the wrong complaints.**
