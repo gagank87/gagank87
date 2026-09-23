@@ -83,7 +83,7 @@ defensible output.
   conversational AI search, presented at NASMEI, December 2025 (paper in revision)
 - **Certifications** — CS50 (Harvard) · Wipro AI · Bloomberg Finance & ESG · Cisco Cybersecurity
 
-**Tools:** Python · SQL · Power BI · Excel · Pandas · MS Office · LangChain ·
+**Tools:** Python · SQL · Power BI · Excel · Pandas · scikit-learn · MS Office · LangChain ·
 Anthropic & OpenAI APIs · Selenium · survey design and statistical testing
 
 ---
