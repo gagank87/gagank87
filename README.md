@@ -2,7 +2,7 @@ Projects
 
 1. [job-finder-ai](https://github.com/gagank87/job-finder-ai)
 **An AI job-search tool that unifies multiple sources and tells you where you should apply**
-Aggregates postings from 7 sources, scores each against a real CV, and drafts
+\nAggregates postings from 7 sources, scores each against a real CV, and drafts
 tailored applications with Claude. The interesting part is the guardrail: a
 mechanical verification step re-checks every generated claim against the source
 CV and rejects fabrications, so the tailoring can rephrase but never invent.
